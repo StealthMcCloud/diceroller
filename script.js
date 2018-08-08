@@ -20,8 +20,13 @@ for (let i = 0; i < 1000; i++) {
     document.getElementById("total3").innerHTML = count;
 }
 
-
-
-// let total3 = document.getElementById("total3");
-// let result3 = document.createTextNode(dice2);
-// total3.appendChild(result3);
+for (let i = 0; i < 13; i++) {
+    let graph = document.getElementById('graph');
+    let block = document.createElement("div");
+    document.createElement("div");
+    block.style.backgroundColor = "gray";
+    block.style.width = count[i] + "px";
+    block.style.height = "20px";
+    block.style.marginTop = "2px";
+    graph.appendChild(block);
+}
